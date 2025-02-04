@@ -26,37 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
-        <style>
-            body {
-                min-height: 100vh;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: #f8f9fa;
-                padding-top: 0;
-                margin: 0;
-            }
-            .login-container {
-                background: white;
-                padding: 2.5rem;
-                border-radius: 10px;
-                box-shadow: 0 0 15px rgba(0,0,0,0.1);
-                width: 100%;
-                max-width: 400px;
-                margin-top: -1vh;
-            }
-            .logo {
-                max-width: 120px;
-                height: auto;
-                margin-bottom: 1rem;
-            }
-            .form-label {
-                font-weight: 500;
-            }
-            .input-group {
-                margin-bottom: 0.5rem;
-            }
-        </style>
+        <link href="login.css" rel="stylesheet">
     </head>
     <body>
         <div class="login-container">
