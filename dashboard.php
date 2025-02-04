@@ -17,53 +17,6 @@ if (!isset($_SESSION['username'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <style>
-        /* Main dropdown styles */
-        .navbar-nav .nav-item.dropdown:hover > .dropdown-menu {
-            display: block;
-        }
-        .navbar-nav .nav-item .nav-link:not(.active) {
-            color: white !important;
-            opacity: 1 !important;
-        }
-
-        .dropdown-submenu {
-            position: relative;
-        }
-        .dropdown-submenu .dropdown-menu {
-            left: 100%;
-            top: 0;
-            margin-left: 0;
-            margin-top: 0;
-        }
-
-        .dropdown-menu {
-            margin: 0;
-            padding: 0;
-        }
-        .dropdown-item {
-            padding: 0.5rem 1rem;
-        }
-    
-        .dropdown-submenu:hover > .dropdown-menu {
-            display: none;
-        }
-
-        .nav-item.dropdown:hover > .dropdown-menu {
-            display: block;
-        }
-
-        .sidebar {
-            width: 200px;
-            float: left;
-            padding: 20px;
-            background: #f4f4f4;
-        }
-        .main-content {
-            margin-left: 220px;
-            padding: 20px;
-        }
-    </style>
 </head>
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
